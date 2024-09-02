@@ -1,1 +1,1 @@
-# electra-project
+# rad-project

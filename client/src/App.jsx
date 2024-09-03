@@ -1,12 +1,14 @@
-import './App.css'
+import React from "react";
+import "./App.css";
+import NavBar from "./components/Navbar"; // Adjust the import path to where Navbar is located
+import Home from "./pages/Home";
 
 function App() {
-
   return (
-    <h1 className="bg-yellow-500">
-      Hello worldNig!
-    </h1>
-  )
+    <div className="App">
+      <Home />
+    </div>
+  );
 }
 
-export default App
+export default App;
